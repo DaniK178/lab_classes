@@ -26,7 +26,12 @@ public class Main {
         //Customer
 
         Customer myCustomer = new Customer(3, "Anna", "Book",37 );
-        System.out.println(myCustomer.get);
+        System.out.println(myCustomer.getId());
+
+        int min= 0;
+        int max = 1000
+        int newId = (int)Math.floor(Math.random()*(max-min+1)+min);
+
 
     }
 

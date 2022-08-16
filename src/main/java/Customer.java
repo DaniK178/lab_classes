@@ -15,8 +15,6 @@ public int getId(){
         return id;
 }
 
-    int min= 0;
-    int max = 1000
-    int newId = (int)Math.floor(Math.random()*(max-min+1)+min);
+
 }
 
